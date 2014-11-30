@@ -1,5 +1,6 @@
 from openerp import http
 
+
 class Academy(http.Controller):
     @http.route('/academy/', auth='public', website=True)
     def index(self):
@@ -11,4 +12,3 @@ class Academy(http.Controller):
         return http.request.render('academy.biography', {
             'person': teacher
         })
-   
