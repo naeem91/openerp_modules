@@ -1,8 +1,10 @@
-<openerp><data>
- <record id="naeem" model="academy.teachers">
-   <field name="name">Naeem</field>
- </record>
- <record id="v" model="academy.teachers">
-    <field name="name">V</field>
- </record>
-</data></openerp>
+<openerp>
+    <data>
+        <record id="naeem" model="academy.teachers">
+            <field name="name">Naeem</field>
+        </record>
+        <record id="v" model="academy.teachers">
+            <field name="name">V</field>
+        </record>
+    </data>
+</openerp>
